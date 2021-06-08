@@ -1,0 +1,27 @@
+Algoritmo "Terreno"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Descrição   : Calculadora basica de terreno
+// Autor(a)    : Joyce Kelly Magalhães Tenório
+// Data atual  : 08/06/2021
+Var
+largura, comprimento, metroQuadrado, area, preco : real
+
+
+
+Inicio
+ escreva ("Digite a largura do terreno: ")
+ leia (largura)
+ escreva ("Digite o comprimento do terreno: ")
+ leia (comprimento)
+ escreva ("Digite o Metro Quadrado do terreno: ")
+ leia (metroQuadrado)
+ 
+ area <- largura * comprimento
+ preco <- area * metroQuadrado
+ escreval ("Area do terreno: ", area:8:2)
+ escreval("Preço do Terreno: ", preco:8:2)
+ 
+ 
+
+
+Fimalgoritmo
