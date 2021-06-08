@@ -1,0 +1,15 @@
+Algoritmo "Caixa"
+// Autor(a)    :JOYCE MAGALHÃES
+// Data atual  : 08/06/2021
+Var
+preco, quantidade,dinheiro,troco,total : real
+
+Inicio
+escreva ("Preço unitário do produto: ")
+leia(preco)
+escreva("Quantidade comprada: ")
+leia (quantidade)
+Escreva("Dinheiro recebido: ")
+leia (Dinheiro)
+troco <- dinheiro - (preco * quantidade)
+escreval ("TROCO= ",troco:8:2)
