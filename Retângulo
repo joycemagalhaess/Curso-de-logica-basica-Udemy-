@@ -1,0 +1,20 @@
+Algoritmo "Retangulo"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Autor(a)    : JOYCE KELLY MAGALHÃES TENÓRIO
+// Data atual  : 08/06/2021
+Var
+BaseDoRetangulo, AlturaDoRetangulo, area, perimetro, diagonal : real
+
+Inicio
+escreva ("Digite o valor da base do retangulo: ")
+leia (BaseDoRetangulo)
+escreva ("Digite o valor da altura do retangulo: ")
+leia (AlturaDoRetangulo)
+area <- BaseDoRetangulo * AlturaDoRetangulo
+perimetro <- 2 * (BaseDoRetangulo + AlturaDoRetangulo)
+diagonal <- raizQ(Exp(BaseDoRetangulo , 2) + Exp(AlturaDoRetangulo, 2))
+escreval ("AREA = ", area:8:4)
+escreval ("PERIMETRO = ", perimetro:8:4)
+escreval ("DIAGONAL = ", diagonal:8:4)
+
+Fimalgoritmo
