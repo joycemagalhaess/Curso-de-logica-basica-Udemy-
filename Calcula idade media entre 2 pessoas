@@ -1,0 +1,30 @@
+Algoritmo "Idade"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Descrição   : Calcula a media das idades
+// Autor(a)    : Joyce magalhães
+// Data atual  : 08/06/2021
+Var
+nome, nome2 : caracter
+idade, idade2 : real
+idademedia: real
+
+
+Inicio
+escreval ("Dados da Primeira Pessoa!")
+escreva ("Nome: ")
+leia (nome)
+escreva ("Idade: ")
+leia (idade)
+escreval ("Dados da segunda pessoa!")
+escreva("Nome: ")
+leia (nome2)
+escreva ("Idade: ")
+leia (idade2)
+
+idademedia <- (idade + idade2)/2
+
+escreval ("A idade média de ",nome," e ", nome2, "é de ", idademedia )
+
+
+
+Fimalgoritmo
